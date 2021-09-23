@@ -10,6 +10,3 @@ spec:
     kind: Deployment
     name: {{ include "demo.fullname" . }}
   targetCPUUtilizationPercentage: 10
-  behavior:
-    scaleDown:
-      stabilizationWindowSeconds: 60
